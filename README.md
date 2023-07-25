@@ -4,5 +4,5 @@ In this project, my partner and I are developing a **UNIX command line interpret
 
 # Authors
 
-- Edger Baluku
+- Edgar Baluku
 - Taoufik el Mahdaoui
