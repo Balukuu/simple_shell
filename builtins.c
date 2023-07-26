@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * find_builtin_function - Find the corresponding built-in function
+ * get_builtin - Get built-in function
  * @params: Pointer to the param_t struct containing command parameters
  *
  * Description: Searches for a built-in function based on the first argument
@@ -16,7 +16,7 @@
  * Return: Function pointer to the built-in function. NULL if not found.
  */
 
-void (*find_builtin_function(param_t *params))(param_t *)
+void (*get_builtin(param_t *params))(param_t *)
 {
 	op_t ops[] = {
 		{"exit", _myExit},
@@ -38,4 +38,5 @@ void (*find_builtin_function(param_t *params))(param_t *)
 	}
 	return (NULL);
 }
+
 

@@ -2,14 +2,13 @@
 #include <stdlib.h>
 #include "shell.h"
 #include "main.h"
-
 /**
- * _change_current_directory - Change the current working directory
- * @params: Shell parameters
+ * _cd - change current working directory
+ * @params: shell parameters
  *
  * Return: void
  */
-void _change_current_directory(param_t *params)
+void _cd(param_t *params)
 {
 	char *target = NULL, cwd[1024];
 	char **tmpArgs = NULL, **originArgs = NULL;
